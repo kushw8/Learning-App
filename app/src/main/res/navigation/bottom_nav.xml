@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/bottom_nav"
+    app:startDestination="@id/bottom_fragment_home">
+
+    <fragment
+        android:id="@+id/bottom_fragment_home"
+        android:label="Home"
+        android:name="com.example.learningapp.fragments.home.HomeFragment"
+        tools:layout="@layout/fragment_home"/>
+
+    <fragment
+        android:id="@+id/bottom_fragment_code"
+        android:label="Code"
+        android:name="com.example.learningapp.fragments.code.codeFragment"
+        tools:layout="@layout/fragment_code"/>
+
+    <fragment
+        android:id="@+id/bottom_fragment_quiz"
+        android:label="Quiz"
+        android:name="com.example.learningapp.fragments.quiz.quizFragment"
+        tools:layout="@layout/fragment_quiz"/>
+
+
+</navigation>

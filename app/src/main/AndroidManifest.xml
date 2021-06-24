@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.learningapp">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.Light">
+        <activity android:name=".BookActivity"></activity>
+        <activity android:name=".AboutUsActivity" />
+        <activity android:name=".leaderBoard.LeaderBoardActivity" />
+        <activity android:name=".fragments.quiz.ScoreActivity" />
+        <activity android:name=".fragments.quiz.StartQuizActivity" />
+        <activity android:name=".auth.LoginnActivity" />
+        <activity android:name=".auth.RegisterActivity" />
+        <activity android:name=".fragments.code.codeActivity" />
+        <activity android:name=".fragments.code.CodeCatagoryActivity" />
+        <activity android:name=".chapterName.swift.swift" />
+        <activity android:name=".chapterName.python.python" />
+        <activity android:name=".chapterName.java.java" />
+        <activity android:name=".chapterName.c.c" />
+        <activity
+            android:name=".chapters.TopicActivity"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

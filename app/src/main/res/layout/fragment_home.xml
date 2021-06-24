@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".fragments.home.HomeFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+     <androidx.cardview.widget.CardView
+         android:id="@+id/home_heading1"
+         android:layout_width="match_parent"
+         android:layout_height="200dp"
+         app:cardElevation="3dp"
+         android:layout_marginBottom="5dp">
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:orientation="vertical">
+
+           <ImageView
+               android:id="@+id/homee_image_java"
+               android:layout_width="match_parent"
+               android:layout_height="match_parent"
+               android:scaleType="centerCrop"/>
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="50dp"
+               android:layout_marginTop="-50dp"
+               android:text="Java"
+               android:background="#8E8A91"
+               android:textStyle="bold"
+               android:textSize="22sp"
+               android:textColor="#FBF9F9"
+               android:gravity="center"/>
+       </LinearLayout>
+
+     </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:id="@+id/home_heading2"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            app:cardElevation="3dp"
+            android:layout_marginBottom="5dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/homee_image_python"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="centerCrop"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="-50dp"
+                    android:text="Python"
+                    android:background="#8E8A91"
+                    android:textStyle="bold"
+                    android:textSize="22sp"
+                    android:textColor="#FBF9F9"
+                    android:gravity="center"/>
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:id="@+id/home_heading3"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            app:cardElevation="3dp"
+            android:layout_marginBottom="5dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/homee_image_swift"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="centerCrop"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="-50dp"
+                    android:text="Swift"
+                    android:background="#8E8A91"
+                    android:textStyle="bold"
+                    android:textSize="22sp"
+                    android:textColor="#FBF9F9"
+                    android:gravity="center"/>
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:id="@+id/home_heading4"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            app:cardElevation="3dp"
+            android:layout_marginBottom="5dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/homee_image_c"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="centerCrop"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="-50dp"
+                    android:text="C Programming:"
+                    android:background="#8E8A91"
+                    android:textStyle="bold"
+                    android:textSize="22sp"
+                    android:textColor="#FBF9F9"
+                    android:gravity="center"/>
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+
+</ScrollView>

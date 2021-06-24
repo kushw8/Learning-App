@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/drawer_book"
+        android:icon="@drawable/drawer_book"
+        android:title="@string/drawer_pdf"/>
+    <item
+        android:id="@+id/drawer_leader_board"
+        android:icon="@drawable/leader_board"
+        android:title="LeaderBoard"/>
+
+
+    <item
+    android:id="@+id/drawer_share"
+    android:icon="@drawable/drawer_share"
+    android:title="@string/drawer_share"/>
+
+
+    <item
+    android:id="@+id/drawer_about"
+    android:icon="@drawable/drawer_aboutus"
+    android:title="@string/drawer_about"/>
+
+    <item
+        android:id="@+id/drawer_rate"
+        android:icon="@drawable/drawer_rate"
+        android:title="Logout"/>
+
+</menu>
